@@ -1,0 +1,193 @@
+:root {
+  --primary-purple: #7c3aed;       /* لون الزرار العائم والبنفسجي الأساسي */
+  --primary-purple-hover: #6d28d9;/* درجة الغامقة عند الهوفر */
+  --light-bg-card: #ffffff;       /* خلفية الكارد البيضاء */
+  --body-bg: #f8fafc;             /* خلفية الموقع العامة الفاتحة */
+  --text-main: #1e293b;           /* اللون الغامق للعناوين والنصوص الأساسية */
+  --text-muted: #64748b;          /* اللون الرمادي للنصوص الفرعية والوصف */
+  --text-light: #94a3b8;          /* اللون الفاتح للبلايسهولدر والخطوط الباهتة */
+  --border-color: #e2e8f0;        /* لون الحدود الخفيفة */
+  --font-family: 'Poppins', sans-serif;
+}
+body {
+  font-family: var(--font-family);
+  background-color: var(--text-main);
+  color: var(--text-main);
+  margin: 0;
+  padding: 0;
+}
+/* Navbar */
+.navbar{
+    background-color: var(--light-bg-card) !important;
+}
+.youork{
+    background: linear-gradient(rgba(75 , 0 , 130 ,0.6),rgba(75, 0, 130, 0.6)),url('../images/new-york.jpeg') !important;
+    height: 90px !important;
+    background-size: contain !important;
+    background-position: center !important;
+    cursor: pointer;
+}
+.maiami{
+     background: linear-gradient(rgba(75 , 0 , 130 ,0.6),rgba(75, 0, 130, 0.6)),url('../images/miami.jpeg') !important;
+    height: 90px !important;
+    background-size: cover !important;
+    background-position: center !important;
+    cursor: pointer;
+    background-repeat: no-repeat;
+}
+.Angeles{
+     background: linear-gradient(rgba(75 , 0 , 130 ,0.6),rgba(75, 0, 130, 0.6)),url('../images/los-angeles.jpeg') !important;
+    height: 90px !important;
+    background-size: cover !important;
+    background-position: center !important;
+    cursor: pointer;
+    background-repeat: no-repeat;
+}
+.p-yourk{
+    color: gainsboro !important;
+    font-size: 13px !important;
+}
+.h3-yourk{
+    font-size: 17px !important;
+}
+.fa-book-open{
+    color: var(--primary-purple);
+    background-color: #e5e2ea !important;
+}
+.Byuing{
+    border-style: solid;
+    position: relative;
+    height: 170px !important;
+}
+.Byuing::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0px;
+    height: 65px;
+    width: 60px;
+   background-color: #f7f6f9;
+border-bottom-left-radius: 50px;
+
+}
+.learn{
+    margin-top: -15px !important;
+    height: 20px !important;
+    color: var(--primary-purple);
+}
+.fa-chart-line{
+    color: green !important;
+    background-color:  #e3f9db !important;
+}
+.learn2{
+    color: green !important;
+}
+.learn2{
+    margin-top: -15px !important;
+}
+
+.Byuing1::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0px;
+    height: 65px;
+    width: 60px;
+background-color: #e3f9db;
+border-bottom-left-radius: 50px;
+
+}
+.fa-file-lines{
+     color: var(--primary-purple-hover) !important;
+    background-color:  #e6dbf9 !important;
+}
+
+
+.Byuing3::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0px;
+    height: 65px;
+    width: 60px;
+background-color: #eae4ed;
+border-bottom-left-radius: 50px;
+
+}
+
+.nav-link {
+    color: #333;
+    position: relative;
+    text-decoration: none;
+}
+
+
+.nav-link::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: var(--primary-purple-hover);
+    left: 0;
+    bottom: 0;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: var(--primary-purple);
+}
+
+.nav-link:hover::after {
+    width: 100%;
+}
+.active{
+    color: var(--primary-purple) !important;
+}
+.active::after {
+    content: "";
+    position: absolute;
+    width: 100% !important;
+    height: 2px;
+    background-color: var(--primary-purple-hover);
+    left: 0;
+    bottom: 0;
+    
+}
+.villa{
+    transition: all 0.3s ease;
+     padding: 10px;
+}
+.villa:hover{
+    cursor: pointer;
+    background-color: #e5e2ea !important;
+    border-radius: 20px;
+   
+}
+p a:hover{
+    color: var(--primary-purple-hover) !important;
+}
+.youork:hover{
+   opacity: 0.8 !important;
+}
+.Angeles:hover{
+    opacity: 0.8 !important;
+}
+.maiami:hover{
+    opacity: 0.8 !important;
+}
+.Byuing:hover .h3-Guide{
+    color: var(--primary-purple);
+    
+}
+.Byuing:hover .fa-arrow-right{
+    transform: translateX(5px);
+}
+.Byuing{
+    cursor: pointer;
+}
+.Byuing1:hover .h3-investment{
+    color: green;
+}
+.Byuing3:hover .h3-Reports{
+    color: var(--primary-purple);
+}
