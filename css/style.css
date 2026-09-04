@@ -15,10 +15,12 @@ body {
   color: var(--text-main);
   margin: 0;
   padding: 0;
+  height: 3000px;
 }
 /* Navbar */
 .navbar{
     background-color: var(--light-bg-card) !important;
+    z-index: 100;
 }
 .youork{
     background: linear-gradient(rgba(75 , 0 , 130 ,0.6),rgba(75, 0, 130, 0.6)),url('../images/new-york.jpeg') !important;
@@ -190,4 +192,98 @@ p a:hover{
 }
 .Byuing3:hover .h3-Reports{
     color: var(--primary-purple);
+}
+/* ////////////////////////////////////////////////////////////////////// */
+.hero-section{
+   background-image: linear-gradient(rgba(75 , 0 , 130 ,0.6),rgba(75, 0, 130, 0.6)),url('../images/hero-bg-img.png') !important;
+   background-size: cover;
+   background-repeat: no-repeat;
+   min-height: 100vh;
+   background-attachment: fixed !important;
+   background-position: center;
+   padding-top: 100px;
+}
+.content{
+    width: fit-content;
+}
+.h3-find{
+    font-size: 60px !important;
+    font-weight: bold;
+}
+
+
+.custom-input-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.custom-input-wrapper i {
+  position: absolute;
+  left: 15px; 
+  color: #a0aec0; 
+  z-index: 5;
+}
+
+.custom-input-wrapper input.form-control {
+ padding-left: 45px; 
+}
+.form-label{
+    margin-left: 150px !important;
+}
+.form-label1{
+    margin-left: 60px !important;
+
+    
+}
+.form-control{
+    height: 60px !important;
+    border: 1px solid gray;
+}
+.form-select{
+    height: 60px !important;
+    margin-top: 0px !important;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+.button-search{
+    background: var(--primary-purple);
+}
+.button-search:hover{
+    background-color: var(--primary-purple-hover);
+}
+.min-num{
+    width: 190px !important;
+    border: 1px solid gray !important;
+}
+/*  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:768) {
+    .hero-section{
+        background-attachment: scroll;
+    }
 }
