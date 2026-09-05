@@ -470,12 +470,87 @@ transform: translateY(-10px) scale(1.05);
 .nav-link:hover .i2{
     color: var(--primary-purple-hover) !important;
 }
+/* /////////////////////////////////////////////////////////// */
+.Testimonials{
+    background-color:#4e1e89;
+}
+.custom1{
+    width: 8%;
+    height: 3px;
+    background:linear-gradient(to left, #ffd500 0%, #fffb00 50%, transparent 100%);
+    filter: drop-shadow(0px 0px 5px #ff510050);
+
+}
+.custom2{
+ width: 8%;
+    height: 3px;
+    background:linear-gradient(to right, #e5ff00 0%, #f2ff00 50%, transparent 100%);
+    filter: drop-shadow(0px 0px 5px #ff1100b1);
+}
+
+.span-cursol{
+    font-size: 20px !important;
+}
+.ddd{
+    min-height: 350px !important;
+    /* justify-content: center; */
+    width: 70% !important;
+    margin: auto !important;
+}
+.imgavatrr{
+    width: 70px !important;
+    height: 70px !important;
+}
+.fa-star{
+    color: yellow !important;
+}
+.carousel-indicators [data-bs-target]{
+    width: 12px !important;
+    height: 12px !important;
+    /* padding: 0 !important; */
+    /* margin: 0 4px !important; */
+    border-radius: 50% !important;
+    background-color: white !important;
+    border: none !important;
+    /* opacity: 1; */
+    /* margin-top: 20px !important; */
+}
+.carousel-indicators [data-bs-target].active{
+ background-color: white;
+}
+.carousel-indicators{
+    margin-bottom: 0;
+    width: fit-content !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: transparent !important;
+  padding: 20px !important;
+  font-size: 4px !important;
+  border-radius: 20px !important;
+  background-color: #64748b !important;
+}
+.Testimonials {
+    background-color: #57477d !important;
+}
+.bg-dangerr{
+     /* background-color:#4e1e89 !important; */
+    border:none !important;
+    outline: none !important;
+    background: transparent !important;
+}
 
 
 
 
-
-
+.carousel-control-prev,
+.carousel-control-next {
+    border: none !important;
+    outline: none !important;
+}
 
 
 
