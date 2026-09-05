@@ -256,7 +256,108 @@ p a:hover{
     width: 190px !important;
     border: 1px solid gray !important;
 }
-/*  */
+/* //////////////////////////////////////////////////////////////////////////////// */
+.custom-line{
+    width: 8%;
+    height: 3px;
+    background:linear-gradient(to left, #a200ff 0%, #9900ff 50%, transparent 100%);
+    filter: drop-shadow(0px 0px 5px #ff510050);
+
+}
+.custom-line2{
+ width: 8%;
+    height: 3px;
+    background:linear-gradient(to right, #8800ff 0%, #7b00ff 50%, transparent 100%);
+    filter: drop-shadow(0px 0px 5px #ff110050);
+}
+.h3-our{
+    color: var(--primary-purple);
+    border: 1px solid gray !important;
+    border-radius: 20px;
+}
+.prenuim{
+    min-height: 100vh !important;
+    background-color: var(--body-bg) !important;
+}
+.h3-featur{
+    font-size: 50px !important;
+    background-image: linear-gradient(to right, var(--primary-purple), #df4410);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+.p-ohoto{
+    margin-top: 120% !important;
+    padding: 2px !important;
+    background-color: rgba(2, 7, 8, 0.7);
+    color: white;
+    border-radius: 20px;
+    width: fit-content !important;
+}
+.span-photo{
+    font-size: 12px !important;
+}
+.fa-heart{
+    margin-left: 130% !important;
+}
+.fa-heart:hover{
+    color: red !important;
+}
+.p-featur1{
+    background-color: var(--primary-purple) !important;
+}
+.card-img-top{
+    transition: all 0.2s ease;
+    overflow: hidden;
+    cursor: pointer;
+}
+.card:hover .card-img-top{
+transform: translateY(-10px) scale(1.05);
+}
+.card-title{
+    color: var(--primary-purple);
+}
+.img-avater{
+    width: 40px;
+    height: 40px;
+    /* margin-bottom: 50px !important; */
+
+}
+.btn{
+    background-color: rgba(0, 0, 255, 0.158);
+    color: var(--primary-purple);
+    font-size: 12px !important;
+    
+}
+.btn:hover{
+    background-color: rgba(0, 0, 255, 0.311);
+     color: var(--primary-purple);
+}
+.p-john{
+    font-size: 14px !important;
+}
+.div-avaters{
+    margin-bottom: 10px !important;
+}
+.card-body{
+    padding-bottom: 0 !important;
+}
+.card-body > p:last-child{
+    margin-bottom: 0px !important;
+}
+.card{
+    border: 1px solid rgba(128, 128, 128, 0.201);
+}
+.btn-view{
+    margin-left: 40% !important;
+    padding: 15px !important;
+    background-color: var(--primary-purple);
+    border: 1px solid blueviolet;
+}
+.btn-view:hover{
+    background-color: var(--primary-purple-hover);
+}
 
 
 
@@ -277,13 +378,9 @@ p a:hover{
 
 
 
-
-
-
-
-
-@media (max-width:768) {
+@media (max-width:768px) {
     .hero-section{
         background-attachment: scroll;
     }
+  
 }
