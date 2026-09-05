@@ -358,6 +358,119 @@ transform: translateY(-10px) scale(1.05);
 .btn-view:hover{
     background-color: var(--primary-purple-hover);
 }
+/* /////////////////////////////////////////////////// */
+
+.hrr{
+    margin-top: -50px !important ;
+}
+.bg-secondary{
+    background-color: #6c28d918 !important;
+}
+.btnserch{
+    background-color: var(--primary-purple);
+    border: 1px solid blueviolet;
+    margin-left: 1% !important;
+}
+.btnserch:hover{
+    background-color: var(--primary-purple-hover);
+}
+.bg-photo{
+    background-image: url(../images/18044b5adf-88059163f35da14236cf.png);
+    background-size: cover;
+}
+.bg-photo2{
+    background-image: url(../images/b4fdd2ba9a-67b56ca0ef6719943016.png);
+    background-size: cover;
+}
+
+.bg-photo5{
+    background-image: url(../images/183e1f2976-275f59474e90bc26d93b.png);
+    background-size: cover;
+}
+
+.bg-photo3{
+    background-image: url(../images/0dc817b5c8-7e972da3ef57d074b2ad.png);
+    background-size: cover;
+    width: 90% !important;
+    height: 400px !important;
+}
+.bg-photo4{
+    background-image: url(../images/debf2496fe-17c2d91b88c14737e857.png);
+    background-size: cover;
+    width: 90% !important;
+    height: 420px !important;
+}
+.div-box{
+    margin-top: 65% !important;
+    margin-left: -5% !important;
+    border: 1px solid rgba(128, 128, 128, 0.078);
+    box-shadow: 3px 3px 3px rgb(240, 236, 236);
+}
+.nav-pills .nav-link.active, .nav-pills{
+    --bs-nav-pills-link-active-bg:var(--border-color) !important;
+}
+.icon-selling{
+    background-color: rgba(0, 128, 0, 0.253) !important;
+    color: green !important;
+}
+.btn-seling{
+    background-color: green !important;
+}
+.h3-selling{
+    color: green !important;
+    font-size: 17px !important;
+}
+.p-seling{
+    font-size: 12px !important;
+}
+.div-box2{
+    margin-top: 70% !important;
+    margin-left: 80% !important;
+    border: 1px solid rgba(128, 128, 128, 0.377);
+    height: 90px !important;
+    box-shadow: 3px 3px 3px rgb(245, 239, 239) !important;
+    background-color: white !important;
+}
+.services{
+    background-color: white !important;
+}
+.h3-box3,.fa-map-location-dot, .fa-shield, .fa-tools{
+    color: #57477d !important;
+}
+.fa-map-location-dot, .fa-shield, .fa-tools{
+    background-color: #283dd91a !important;
+}
+.btnbrows{
+    background-color: #57477d !important;
+   
+}
+.btnbrows:hover{
+    background-color: #7a477ddb !important;
+   
+}
+.icon-invest{
+    color: rgb(165, 118, 42) !important;
+    background-color: rgba(236, 201, 157, 0.829) !important;
+    padding: 10px !important;
+    border-radius: 12px !important;
+}
+.btnexplor{
+    background-color:rgb(165, 118, 42) !important;;
+}
+.btnexplor:hover{
+    background-color:rgba(165, 118, 42, 0.884) !important;;
+}
+.h3-15{
+     color: rgb(165, 118, 42) !important;;
+}
+.i2{
+    color: rgb(6, 0, 0) !important;
+    background-color: white !important;
+}
+.nav-link:hover .i2{
+    color: var(--primary-purple-hover) !important;
+}
+
 
 
 
@@ -382,5 +495,8 @@ transform: translateY(-10px) scale(1.05);
     .hero-section{
         background-attachment: scroll;
     }
-  
+  .div-box{
+    margin-top: 75% !important;
+    margin-left: -5% !important;
+padding: 7px !important;}
 }
