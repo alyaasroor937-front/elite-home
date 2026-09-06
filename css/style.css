@@ -596,11 +596,188 @@ transform: translateY(-10px) scale(1.05);
 .accordion-button:hover{
     background-color: #edeef0 !important;
 }
+/* /////////////////////////////////////////////// */
+.contact::after{
+    content: "";
+    position: absolute;
+    margin-left: 81%;
+    margin-top:-130%;
+    height: 180px;
+    width: 190px;
+    border-bottom-left-radius: 140px;
+    background-color: #eae7edb5;
+}
+
+.contact::before{
+    content: "";
+    position: absolute;
+    margin-left: 80%;
+   z-index: 1;
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+   border: 3px solid rgba(0, 0, 255, 0.105);
+   
+}
+.call{
+    border: 1px solid rgba(128, 128, 128, 0.365) !important;
+    width: 204px;
+    transition: all 0.2s ease;
+}
+.p-mon{
+    font-size: 14px !important;
+}
+.p-55{
+    color: var(--primary-purple) !important;
+}
+.iconcal{
+    background-color: var(--primary-purple) !important;
+}
+.iconmail{
+    background-color: #ae00ff !important;
+}
+.p-mail{
+    color: #ae00ff !important;
+}
+
+.ilocation {
+  background-image: linear-gradient(to right, var(--primary-purple), #df4410) !important;
+ 
+}
+.p-baveely{
+    
+    background-image: linear-gradient(to right, var(--primary-purple), #df4410);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+.cal3:hover{
+    border: 2px solid palevioletred !important;
+}
+.cal4:hover{
+    border: 2px solid rgb(112, 150, 216) !important;
+}
+.cal2:hover{
+    border: 2px solid rgb(187, 112, 216) !important;
+}
+.cal1:hover{
+    border: 2px solid rgb(112, 128, 216) !important;
+}
+
+.call:hover{
+    transform: translateY(-10px);
+    
+}
+.iconcal{
+    transition: all 0.2s ease;
+}
+.call:hover .iconcal{
+    transform: translateY(-10px) !important;
+}
+/* ////////////////////// */
+.contact-info {
+    background-color: #eef1ff;
+    height: auto !important;
+}
+
+.contact-form {
+    border: 1px solid #d9dce5;
+    background-color: #fff;
+}
+.i22{
+    color: red;
+}
+.i12{
+    color: #6c4edb;
+}
+
+.icon-box {
+    width: 50px;
+    height: 50px;
+    border-radius: 12px;
+    background-color: #f7f3df;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.icon-box i {
+    font-size: 20px;
+}
+
+.form-control,
+.form-select {
+    min-height: 58px;
+    border-radius: 14px;
+    padding: 15px 18px;
+    border: 1px solid #d9dce5;
+}
+
+textarea.form-control {
+    min-height: 180px;
+}
+
+.form-label span {
+    color: red;
+}
+
+.send-btn {
+    min-height: 58px;
+    border-radius: 14px;
+    font-size: 18px;
+    font-weight: bold;
+    background: linear-gradient(90deg, #8b6ee8, #6c4edb);
+    color: white;
+    border: none;
+}
+
+.send-btn:hover {
+    color: white;
+    opacity: 0.9;
+}
+
+.form-check {
+    /* padding: 18px; */
+    border-radius: 14px;
+    background-color: #f5f5f7;
+    display: flex;
+    align-items: center;
+}
+/* ////////////////////////////////////////////// */
+
+.connect-box {
+  background-color: #9b51e0;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 
 
+.connect-box:hover {
+  transform: scale(1.03) translateY(-5px);
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2) !important;
+}
 
 
+.social-icons .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  background-color: rgba(255, 255, 255, 0.15);
+  color: #ffffff;
+  border-radius: 50%;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.3s ease, color 0.3s ease;
+}
 
+
+.social-icons .icon:hover {
+  background-color: #ffffff;
+  color: #9b51e0;
+  transform: translateY(-3px);
+}
 
 
 
@@ -616,4 +793,11 @@ transform: translateY(-10px) scale(1.05);
     margin-top: 75% !important;
     margin-left: -5% !important;
 padding: 7px !important;}
+.contact::after{
+    margin-top: -429% !important;
+    margin-left: 63% !important;
+}
+.contact::before{
+    margin-left: 60% !important;
+}
 }
