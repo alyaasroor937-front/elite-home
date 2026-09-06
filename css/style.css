@@ -21,6 +21,7 @@ body {
 .navbar{
     background-color: var(--light-bg-card) !important;
     z-index: 100;
+    box-shadow: 0 5px 12px rgb(232, 228, 228);
 }
 .youork{
     background: linear-gradient(rgba(75 , 0 , 130 ,0.6),rgba(75, 0, 130, 0.6)),url('../images/new-york.jpeg') !important;
@@ -823,8 +824,6 @@ textarea.form-control {
 
 
 
-
-
 @media (max-width:768px) {
     .hero-section{
         background-attachment: scroll;
@@ -839,5 +838,23 @@ padding: 7px !important;}
 }
 .contact::before{
     margin-left: 60% !important;
+}
+.footer-section::after{
+   margin-left: -5%;
+    margin-top:-43%;
+    height: 100px;
+    width: 150px;
+    border-top-right-radius: 120px;
+}
+.footer-section::before{
+    
+    margin-left: 4%;
+    margin-top: -20%;
+  
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+   border: 3px solid rgba(157, 4, 160, 0.212);
+   
 }
 }
